@@ -34,13 +34,11 @@ body {
   display: flex;
 }
 
-/* GENERAL */
 a:link,
 a:visited {
   color: var(--color-brand--1);
 }
 
-/* SIDEBAR */
 .sidebar {
   flex-basis: 50rem;
   background-color: var(--color-dark--1);
@@ -123,7 +121,6 @@ a:visited {
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 2.5rem;
 
-  /* Match height and activity boxes */
   height: 9.25rem;
   transition: all 0.5s, transform 1ms;
 }
